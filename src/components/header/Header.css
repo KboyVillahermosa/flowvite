@@ -8,14 +8,32 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    height: 50vh;
+    text-align: start;
+    padding: 5px;
+    height: 60vh;
 }
 .header-content{
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
+}
+@media screen and (max-width: 1170px){
+    .header{
+        padding: 20px;
+    }
+    .header-image{
+        display: none;
+    }
+    
 }
 .header-image{
     width: 100%;
     max-width: 500px;
-    margin-top: 100px;
+    margin: 10px 20px;
+}
+.header-image img{
+    width: 100%;
+    max-width: 500px;
+}
+.po{
+    color: #0e7490;
 }
