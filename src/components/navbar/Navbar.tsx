@@ -17,8 +17,6 @@ export function Component() {
       <Button>Get started</Button>
       <Navbar.Toggle />
       </div>
-      
-     
       <Navbar.Collapse>
         <Navbar.Link href="/" active>
           Home
