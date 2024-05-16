@@ -23,7 +23,7 @@ export function Component() {
         </Navbar.Link>
         <Navbar.Link href="/about">About</Navbar.Link>
         <Navbar.Link href="/contact">Contact</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
+        <Navbar.Link href="/test">Pricing</Navbar.Link>
         <Navbar.Link href="#">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

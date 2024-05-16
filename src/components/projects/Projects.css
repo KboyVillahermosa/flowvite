@@ -17,6 +17,7 @@
 .project-title h1{
     font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
     text-transform: uppercase;
+    padding: 20px;
     word-spacing: 5px;
 }
 
@@ -25,15 +26,37 @@
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     gap: 10px;
 }
 
 .project-content{
     width: 100%;
     width: 400px;
+    padding: 10px;
 }
 .project-content img{
     width: 100%;
     max-width: 400px;
 }
+
+@media screen and (max-width: 700px){
+    .project-content{
+        width: 100%;
+        max-width: auto;
+    }
+    .project-content img{
+        width: 100%;
+        max-width: 900px;
+    }
+    
+}
+
+.modal-content{
+    width: 100%;
+    max-width: 100px;
+}
+.control{
+    color: #0e7490;
+}
+

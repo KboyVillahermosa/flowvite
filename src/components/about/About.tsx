@@ -1,8 +1,6 @@
 
 import './About.css'
 
-
-
 const About = () => {
   return (
     <main className="dark:bg-gray-800">
