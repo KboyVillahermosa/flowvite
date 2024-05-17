@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.skills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.skills-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skills-content{
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 30px;
+
+}
+
+.skills-image{
+    width: 100%;
+    max-width: 600px;
+}
+
+.frontend-span{
+    color: #0e7490;
+}

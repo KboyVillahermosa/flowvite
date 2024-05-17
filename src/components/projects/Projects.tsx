@@ -4,8 +4,8 @@ import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
 import { Carousel } from "flowbite-react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
-
 import "./Projects.css";
+
 
 const Projects = () => {
   const [openModalQuotes, setOpenModalQuotes] = useState(false);
@@ -13,12 +13,16 @@ const Projects = () => {
   const [openModalPizza, setOpenModalPizza] = useState(false);
   const [openModalSport, setOpenModalSport] = useState(false);
   const [openModalTool, setOpenModalTool] = useState(false);
+  const [openModalNature, setOpenModalNature] = useState(false);
+  const [openModalFront, setOpenModalFront] = useState(false);
+  const [openModalTechBro, setOpenModalTechBro] = useState(false);
 
   return (
+    <section id="project">
     <main className="dark:bg-gray-800">
       <div className="project-title">
         <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          Experience and Projects
+         Projects
         </h1>
       </div>
 
@@ -75,7 +79,6 @@ const Projects = () => {
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-           
         </div>
         <div className="project-content bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div
@@ -289,7 +292,7 @@ const Projects = () => {
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Tools and Platforms
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">MySQL, Apache, Phpmyadmin, Version COntrol</p>
+            <p className="text-gray-600 dark:text-gray-300">MySQL, Apache, Phpmyadmin, Version Control</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -307,10 +310,196 @@ const Projects = () => {
             <p className="font-normal text-gray-700 dark:text-gray-400">
             Your go-to resource for improving your computer science and IT abilities.
             </p>
-      
+        </div>
+
+        {/* NATURE PROJECT CONTENT   */}
+        <div className="project-content bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div
+        className="relative cursor-pointer group"
+        onClick={() => setOpenModalNature(true)}  >
+        <img
+          src="/publiC/nature1.png"
+          alt=""
+          className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <span className="text-white text-lg font-bold">View More</span>
+        </div>
+      </div>
+          {/* modal content    */}
+          <div className="modal-header">
+              <div className="modal-content">
+        <Modal dismissible show={openModalNature} onClose={() => setOpenModalNature(false)}  className="">
+        <Modal.Header>About this Project</Modal.Header>
+        <Modal.Body className="p-3 w-full">
+        <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
+        <img src="/public/nature1.png" alt="..." />
+        <img src="/public/nature2.png" alt="..." />
+        <img src="/public/nature3.png" alt="..." />
+        <img src="/public/nature4.png" alt="..." />
+        <img src="/public/nature5.png" alt="..." />
+       </Carousel>
+    </div>
+          <div className="p-2">
+            <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <a href="https://github.com/KboyVillahermosa/TechTool.git" target="_blank"><Button>Source Code</Button></a>
+          <Button color="gray" onClick={() => setOpenModalNature(false)}>
+            Decline
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+      </div>
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+             Web Design
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            Your go-to resource for improving your computer science and IT abilities.
+            </p>
+        </div>
+
+        
+          {/* Frontend PROJECT CONTENT   */}
+          <div className="project-content bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div
+        className="relative cursor-pointer group"
+        onClick={() => setOpenModalFront(true)}  >
+        <img
+          src="/public/front.png"
+          alt=""
+          className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <span className="text-white text-lg font-bold">View More</span>
+        </div>
+      </div>
+          {/* modal content    */}
+          <div className="modal-header">
+              <div className="modal-content">
+        <Modal dismissible show={openModalFront} onClose={() => setOpenModalFront(false)}  className="">
+        <Modal.Header>About this Project</Modal.Header>
+        <Modal.Body className="p-3 w-full">
+        <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
+        <img src="/public/frontend2.png" alt="..." />
+        <img src="/public/frontend3.png" alt="..." />
+        <img src="/public/frontend4.png" alt="..." />
+        <img src="/public/frontend5.png" alt="..." />
+        <img src="/public/frontend6.png" alt="..." />
+        <img src="/public/frontend7.png" alt="..." />
+        <img src="/public/frontend8.png" alt="..." />
+        <img src="/public/frontend9.png" alt="..." />
+        <img src="/public/frontend10.png" alt="..." />
+        <img src="/public/frontend11.png" alt="..." />
+        <img src="/public/frontend12.png" alt="..." />
+        <img src="/public/frontend13.png" alt="..." />
+
+       </Carousel>
+    </div>
+          <div className="p-2">
+            <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <a href="https://github.com/KboyVillahermosa/TechTool.git" target="_blank"><Button>Source Code</Button></a>
+          <Button color="gray" onClick={() => setOpenModalFront(false)}>
+            Decline
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+      </div>
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+             FrontEnd Practice
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            Your go-to resource for improving your computer science and IT abilities.
+            </p>
+        </div>
+
+
+        
+          {/* TechBro PROJECT CONTENT   */}
+          <div className="project-content bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div
+        className="relative cursor-pointer group"
+        onClick={() => setOpenModalTechBro(true)}  >
+        <img
+          src="/public/techbro1.png"
+          alt=""
+          className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <span className="text-white text-lg font-bold">View More</span>
+        </div>
+      </div>
+          {/* modal content    */}
+          <div className="modal-header">
+              <div className="modal-content">
+        <Modal dismissible show={openModalTechBro} onClose={() => setOpenModalTechBro(false)}  className="">
+        <Modal.Header>About this Project</Modal.Header>
+        <Modal.Body className="p-3 w-full">
+        <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
+        <img src="/public/techbro2.png" alt="..." />
+        <img src="/public/techbro3.png" alt="..." />
+        <img src="/public/techbro4.png" alt="..." />
+       </Carousel>
+    </div>
+          <div className="p-2">
+            <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <a href="https://github.com/KboyVillahermosa/TechTool.git" target="_blank"><Button>Source Code</Button></a>
+          <Button color="gray" onClick={() => setOpenModalTechBro(false)}>
+            Decline
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+      </div>
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+             TechBros
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            Your go-to resource for improving your computer science and IT abilities.
+            </p>
         </div>
       </div>
     </main>
+    </section>
   );
 };
 
