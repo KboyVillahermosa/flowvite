@@ -1,37 +1,23 @@
-import { Button, Modal } from "flowbite-react";
-import { useState } from "react";
-import { Carousel } from "flowbite-react";
-import { FaAngleLeft, FaAngleRight  } from "react-icons/fa";
+import "./Contact.css";
 
 const Contact = () => {
-  const [openModal, setOpenModal] = useState(false);
   return (
-   <>
-    <Button onClick={() => setOpenModal(true)}>Toggle modal</Button>
-      <Modal show={openModal} onClose={() => setOpenModal(false)}>
-        <Modal.Header>Terms of Service</Modal.Header>
-        <Modal.Body>
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-      <Carousel leftControl={<span><FaAngleLeft className='text-white text-3xl rounded backdrop:blur-lg'/></span>} rightControl={<span><FaAngleRight className='text-white text-3xl rounded bg-black-500'/></span>}>
-        <img src="/public/image1.avif" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
-      </Carousel>
-    </div>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={() => setOpenModal(false)}>I accept</Button>
-          <Button color="gray" onClick={() => setOpenModal(false)}>
-            Decline
-          </Button>
-        </Modal.Footer>
-      </Modal>
-   
-   
-   </>
-  )
-}
+    <>
+      <main className="dark:bg-gray-800">
+        <div className="contact-header">
+          <div className="contact-content">
+            <h3 className="text-gray-900 dark:text-white">
+              I'm always excited to connect with new people and discuss
+              potential opportunities or collaborations. Whether you have a
+              project in mind, need help with something specific, or just want
+              to say hi, feel free to reach out using my personal email ε(´｡•᎑•`)っ 💕 <span className="perosonal-email font-bold"><a href="https://mail.google.com" target="_blank">villahermosafrancisco6@gmail.com</a></span>. I'll do my
+              best to get back to you as soon as possible. (∩˃o˂∩)♡
+            </h3>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+};
 
-export default Contact
+export default Contact;

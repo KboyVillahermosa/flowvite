@@ -8,6 +8,10 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+
+}
+.skills-title h1{
+    font-size: clamp(1.875rem, 0.3125rem + 5vw, 3.125rem);
 }
 .skills-header{
     display: flex;
@@ -31,4 +35,5 @@
 
 .frontend-span{
     color: #0e7490;
+  
 }

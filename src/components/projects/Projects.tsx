@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Button, Modal } from "flowbite-react";
@@ -41,8 +42,8 @@ const Projects = () => {
       </div>
       <div className="modal-header">
               <div className="modal-content">
-          <Modal dismissible show={openModalQuotes} onClose={() => setOpenModalQuotes(false)}  className="">
-        <Modal.Header>About this Project</Modal.Header>
+          <Modal show={openModalQuotes} onClose={() => setOpenModalQuotes(false)}  className="modal">
+        <Modal.Header className="">About this Project</Modal.Header>
         <Modal.Body className="p-3">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
