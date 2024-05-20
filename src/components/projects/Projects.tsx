@@ -53,7 +53,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalQuotes(true)}  >
         <img
-          src="/public/q1.png"
+          src="/q1.png"
           alt="Qutes Generator"
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -67,10 +67,10 @@ const Projects = () => {
         <Modal.Body className="p-3">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/q2.png" alt="..." />
-        <img src="/public/q3.png" alt="..." />
-        <img src="/public/q4.png" alt="..." />
-        <img src="/public/q2.png" alt="..." />
+        <img src="/q2.png" alt="..." />
+        <img src="/q3.png" alt="..." />
+        <img src="/q4.png" alt="..." />
+        <img src="/q2.png" alt="..." />
        </Carousel>
     </div>
           <div className="P-2">
@@ -110,7 +110,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalWeather(true)}  >
         <img
-          src="/public/weather.png"
+          src="/weather.png"
           alt="Wheater"
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -125,7 +125,7 @@ const Projects = () => {
         <Modal.Body className="p-3">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/weather1.png" alt="..." />
+        <img src="/weather1.png" alt="..." />
         <img src="/public/weather2.png" alt="..." />
         <img src="/public/weather3.png" alt="..." />
         <img src="/public/weather4.png" alt="..." />
@@ -170,7 +170,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalPizza(true)}  >
         <img
-          src="/public/pizza2.png"
+          src="/pizza2.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -185,9 +185,9 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/pizza3.png" alt="..." />
-        <img src="/public/pizza4.png" alt="..." />
-        <img src="/public/pizza5.png" alt="..." />
+        <img src="/pizza3.png" alt="..." />
+        <img src="/pizza4.png" alt="..." />
+        <img src="/pizza5.png" alt="..." />
         <img src="/public/pizza6.png" alt="..." />
        </Carousel>
     </div>
@@ -232,7 +232,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalSport(true)}  >
         <img
-          src="/public/b1.png"
+          src="/b1.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -247,7 +247,7 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/b2.png" alt="..." />
+        <img src="/b2.png" alt="..." />
         <img src="/public/b3.png" alt="..." />
        </Carousel>
     </div>
@@ -288,7 +288,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalTool(true)}  >
         <img
-          src="/public/tech2.png"
+          src="/tech2.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -303,13 +303,13 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/tech1.png" alt="..." />
-        <img src="/public/tech2.png" alt="..." />
-        <img src="/public/tech3.png" alt="..." />
-        <img src="/public/tech4.png" alt="..." />
-        <img src="/public/tech5.png" alt="..." />
-        <img src="/public/tech6.png" alt="..." />
-        <img src="/public/tech7.png" alt="..." />
+        <img src="/tech1.png" alt="..." />
+        <img src="/tech2.png" alt="..." />
+        <img src="/tech3.png" alt="..." />
+        <img src="/tech4.png" alt="..." />
+        <img src="/tech5.png" alt="..." />
+        <img src="/tech6.png" alt="..." />
+        <img src="/tech7.png" alt="..." />
        </Carousel>
     </div>
           <div className="p-2">
@@ -353,7 +353,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalNature(true)}  >
         <img
-          src="/publiC/nature1.png"
+          src="/nature1.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -368,11 +368,11 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/nature1.png" alt="..." />
-        <img src="/public/nature2.png" alt="..." />
-        <img src="/public/nature3.png" alt="..." />
-        <img src="/public/nature4.png" alt="..." />
-        <img src="/public/nature5.png" alt="..." />
+        <img src="/nature1.png" alt="..." />
+        <img src="/nature2.png" alt="..." />
+        <img src="/nature3.png" alt="..." />
+        <img src="/nature4.png" alt="..." />
+        <img src="/nature5.png" alt="..." />
        </Carousel>
     </div>
           <div className="p-2">
@@ -413,7 +413,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalFront(true)}  >
         <img
-          src="/public/front.png"
+          src="/front.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -428,18 +428,18 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/frontend2.png" alt="..." />
-        <img src="/public/frontend3.png" alt="..." />
-        <img src="/public/frontend4.png" alt="..." />
-        <img src="/public/frontend5.png" alt="..." />
-        <img src="/public/frontend6.png" alt="..." />
-        <img src="/public/frontend7.png" alt="..." />
-        <img src="/public/frontend8.png" alt="..." />
-        <img src="/public/frontend9.png" alt="..." />
-        <img src="/public/frontend10.png" alt="..." />
-        <img src="/public/frontend11.png" alt="..." />
-        <img src="/public/frontend12.png" alt="..." />
-        <img src="/public/frontend13.png" alt="..." />
+        <img src="/frontend2.png" alt="..." />
+        <img src="/frontend3.png" alt="..." />
+        <img src="/frontend4.png" alt="..." />
+        <img src="/frontend5.png" alt="..." />
+        <img src="/frontend6.png" alt="..." />
+        <img src="/frontend7.png" alt="..." />
+        <img src="/frontend8.png" alt="..." />
+        <img src="/frontend9.png" alt="..." />
+        <img src="/frontend10.png" alt="..." />
+        <img src="/frontend11.png" alt="..." />
+        <img src="/frontend12.png" alt="..." />
+        <img src="/frontend13.png" alt="..." />
 
        </Carousel>
     </div>
@@ -482,7 +482,7 @@ const Projects = () => {
         className="relative cursor-pointer group"
         onClick={() => setOpenModalTechBro(true)}  >
         <img
-          src="/public/techbro1.png"
+          src="/techbro1.png"
           alt=""
           className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -497,9 +497,9 @@ const Projects = () => {
         <Modal.Body className="p-3 w-full">
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
-        <img src="/public/techbro2.png" alt="..." />
-        <img src="/public/techbro3.png" alt="..." />
-        <img src="/public/techbro4.png" alt="..." />
+        <img src="/techbro2.png" alt="..." />
+        <img src="/techbro3.png" alt="..." />
+        <img src="/techbro4.png" alt="..." />
        </Carousel>
     </div>
           <div className="p-2">

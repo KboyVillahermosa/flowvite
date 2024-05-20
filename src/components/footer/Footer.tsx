@@ -16,8 +16,8 @@ export function Component() {
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
-              href="https://flowbite."
-              src="/public/kboy.png"
+              href=""
+              src="/kboy.png"
               alt="Flowbite Logo"
               name="KBoY"
             />

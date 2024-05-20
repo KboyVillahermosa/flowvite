@@ -12,7 +12,7 @@ const About = () => {
          Welcome to a world where each click is an invitation to explore, discover, and be inspired.</p>
       </div>
       <div className="about-image">
-        <img src="/public/me.png" alt="" />
+        <img src="/me.png" alt="" />
       </div>
     </div>
     </main>

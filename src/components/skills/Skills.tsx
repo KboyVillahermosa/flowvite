@@ -65,58 +65,58 @@ const Skills = () => {
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/figma.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/figma.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/tailwind.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/tailwind.jpg" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/bootstrap.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/bootstrap.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/nodejs.png" alt="" />
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/html.png" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/css.png" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/php.png" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/vscode.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/nodejs.png" alt="" />
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/js.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/html.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/ts.webp" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/css.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/Frameworks-for-React-JS.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/php.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/mui-react.jpg" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/vscode.jpg" alt="" />
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/antd.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/js.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/mysql.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/ts.webp" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/vite.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/Frameworks-for-React-JS.jpg" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/public/flowbite-react.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/mui-react.jpg" alt="" />
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/antd.png" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/mysql.png" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/vite.png" alt="" />
+        </div>
+        <div>
+            <img className="h-auto max-w-full rounded-lg" src="/flowbite-react.png" alt="" />
         </div>
     </div>
 </div>

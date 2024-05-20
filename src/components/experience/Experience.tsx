@@ -12,7 +12,7 @@ const Experience = () => {
             <h1 className="p-3 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
              My Experience
             </h1>
-            <img src="/public/exp.png" alt="" />
+            <img src="/exp.png" alt="" />
           </div>
           <div className="experience-content">
             <Timeline>

@@ -9,7 +9,7 @@ export function Component() {
     <body className="dark:bg-gray-800">
     <Navbar fluid rounded className="fixed z-10 w-full">
       <Navbar.Brand href="/">
-        <img src="/public/kboy.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <img src="/kboy.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">KBoY</span>
       </Navbar.Brand>
       <div className="dark-mode flex md:order-2">
