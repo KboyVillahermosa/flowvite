@@ -26,7 +26,7 @@ export function Component() {
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Resume</Footer.Link>
+                <Footer.Link href="https://drive.google.com/file/d/12Fg5NmLEq9VejXWzhiP69rxKLf-f_j3G/view?usp=sharing">Resume</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -43,7 +43,7 @@ export function Component() {
           <div className="div"></div>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
+            <Footer.Icon href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
            <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
           </div>
         </div>

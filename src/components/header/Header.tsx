@@ -5,6 +5,7 @@ import './Header.css'
 const Header = () => {
   return (
     <>
+    <section id='home'>
     <main className='main dark:bg-gray-800 main'>
     <div className="header">
         <div className="header-content">
@@ -14,6 +15,7 @@ const Header = () => {
     </div>
     
     </main>
+    </section>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import "./Experience.css";
-import {  Timeline, Accordion } from "flowbite-react";
-import {  HiCalendar } from "react-icons/hi";
+import {  Timeline, Button } from "flowbite-react";
+import {  HiCalendar, HiArrowNarrowRight  } from "react-icons/hi";
+import { Link } from 'react-router-dom'
 
 const Experience = () => {
   return (
@@ -52,6 +53,7 @@ const Experience = () => {
                    <p>Dean's List, University of Southern Philippines Foundation, (Fall 2022 - Fall 2023)</p>
 
                    <p className="mt-3">3rd Placer, Hackathon CCS, 2023 - Recognized for creating a website for job searching</p>
+                  <Link to="https://drive.google.com/file/d/12Fg5NmLEq9VejXWzhiP69rxKLf-f_j3G/view?usp=sharing" target="blank_"><Button color="gray" className="mt-5">Resume<HiArrowNarrowRight className="ml-2 h-3 w-3" /> </Button></Link> 
                   </Timeline.Body>
                 </Timeline.Content>
               </Timeline.Item>

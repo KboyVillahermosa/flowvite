@@ -3,6 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
+    <section id='about'>
     <main className="dark:bg-gray-800">
     <div className="about-header">
       <div className="about-content">
@@ -15,6 +16,7 @@ const About = () => {
       </div>
     </div>
     </main>
+    </section>
   )
 }
 

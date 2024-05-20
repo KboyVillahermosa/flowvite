@@ -5,6 +5,7 @@ import {  HiCalendar } from "react-icons/hi";
 
 const Skills = () => {
   return (
+    <section id='skills'>
     <main className="dark:bg-gray-800">
         <div className="skills-title">
             <h1 className='text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl'> Skills and Expertise</h1>
@@ -124,6 +125,7 @@ const Skills = () => {
             </div>
         </div>
     </main>
+    </section>
   )
 }
 

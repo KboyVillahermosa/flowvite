@@ -2,10 +2,19 @@
 "use client";
 
 import { Button, Modal } from "flowbite-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Carousel } from "flowbite-react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./Projects.css";
+
+const Loader = () => {
+   return (
+    <div className="loader-header dark:bg-gray-800">
+<div className="spinner"></div>
+  </div>
+   );
+};
 
 
 const Projects = () => {
@@ -17,8 +26,19 @@ const Projects = () => {
   const [openModalNature, setOpenModalNature] = useState(false);
   const [openModalFront, setOpenModalFront] = useState(false);
   const [openModalTechBro, setOpenModalTechBro] = useState(false);
+   
 
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
+    <>
+    {loading && <Loader />}
     <section id="project">
     <main className="dark:bg-gray-800">
       <div className="project-title">
@@ -53,22 +73,26 @@ const Projects = () => {
         <img src="/public/q2.png" alt="..." />
        </Carousel>
     </div>
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Your Daily Dose of Inspiration and Wisdom! Immerse yourself in a world of timeless wisdom, motivation,
-             and thought-provoking insights with our Quotes Generator.
-            </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Designed to uplift and inspire, this innovative tool curates a diverse collection of quotes from renowned thinkers
-            , authors, and leaders across the ages.
-            </p>
+          <div className="P-2">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Tools and Platforms
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">API</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={() => setOpenModalQuotes(false)}>I accept</Button>
-          <Button color="gray" onClick={() => setOpenModalQuotes(false)}>
-            Decline
-          </Button>
+        <Link to="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" target="blank_"><Button onClick={() => setOpenModalQuotes(false)}>Source Code</Button></Link>  
         </Modal.Footer>
       </Modal>
       </div>
@@ -107,32 +131,35 @@ const Projects = () => {
         <img src="/public/weather4.png" alt="..." />
        </Carousel>
     </div>
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Dive into interactive maps, explore detailed forecasts, and track the latest conditions with precision.
-            Stay informed and empowered with real-time weather updates, forecasts, and insightful meteorological data.
-            </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Whether you're planning your day, a weekend getaway, or simply intrigued by the forces of nature, 
-            our Weather Website provides a seamless and user-friendly experience.
-            </p>
+          <div className="P-2">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-1 dark:text-white uppercase">
+            Tools and Platforms
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">API</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={() => setOpenModalWeather(false)}>I accept</Button>
-          <Button color="gray" onClick={() => setOpenModalWeather(false)}>
-            Decline
-          </Button>
+          <Link to="https://github.com/KboyVillahermosa/weather-project.git" target="blank_"><Button onClick={() => setOpenModalWeather(false)}>Source Code</Button></Link>
         </Modal.Footer>
       </Modal>
       </div>
       </div>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              Weather App
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            Stay informed and empowered with real-time weather updates, forecasts, and insightful meteorological data.
             </p>
         </div>
 
@@ -164,16 +191,22 @@ const Projects = () => {
         <img src="/public/pizza6.png" alt="..." />
        </Carousel>
     </div>
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              With less than a month to go before the European Union enacts new consumer privacy laws for its citizens,
-              companies around the world are updating their terms of service agreements to comply.
-            </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant
-              to ensure a common set of data rights in the European Union. It requires organizations to notify users as
-              soon as possible of high-risk data breaches that could personally affect them.
-            </p>
+          <div className="P-2">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT, MYSQL</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Tools and Platforms
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">MySQL, Apache, Phpmyadmin, Version Control</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -186,11 +219,10 @@ const Projects = () => {
       </div>
       </div>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+             E-commerce Pizza
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            Your Ultimate Destination for Exceptional Pizza and Beyond! Welcome to a culinary haven where passion for flavors meets the convenience of modern technology
             </p>
         </div>
 
@@ -219,15 +251,18 @@ const Projects = () => {
         <img src="/public/b3.png" alt="..." />
        </Carousel>
     </div>
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Embark on a thrilling journey through the sleek and powerful world of speed and design. 
-            Our Sport Car Gallery showcases the epitome of automotive excellence, where precision engineering meets breathtaking aesthetics.
-            </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            Unleash the roar of high-performance engines and experience the artistry of cutting-edge design.
-             Get ready to be captivated by the sheer elegance and adrenaline-pumping beauty that defines the spirit of these remarkable sports cars.
-            </p>
+          <div className="P-2">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, JAVASCRIPT</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Bootstrap</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -240,11 +275,10 @@ const Projects = () => {
       </div>
       </div>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              Sport Car Blog
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            Embark on a thrilling journey through the sleek and powerful world of speed and design
             </p>
         </div>
 
@@ -348,7 +382,7 @@ const Projects = () => {
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Languages
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, JAVASCRIPT</p>
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Frameworks
             </h3>
@@ -365,10 +399,10 @@ const Projects = () => {
       </div>
       </div>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-             Web Design
+             Nature Gallery
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-            Your go-to resource for improving your computer science and IT abilities.
+            Step into the serenity of our Nature Gallery, where the beauty of the natural world unfolds in a captivating visual symphony.
             </p>
         </div>
 
@@ -410,13 +444,13 @@ const Projects = () => {
        </Carousel>
     </div>
           <div className="p-2">
-            <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+          <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
             Technologies and Languages Used
             </h1>
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Languages
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <p className="text-gray-600 dark:text-gray-300">React Vite</p>
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Frameworks
             </h3>
@@ -475,7 +509,7 @@ const Projects = () => {
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Languages
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">HTML, CSS, PHP, JAVASCRIPT</p>
+            <p className="text-gray-600 dark:text-gray-300">React Vite</p>
             <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
             Frameworks
             </h3>
@@ -501,6 +535,7 @@ const Projects = () => {
       </div>
     </main>
     </section>
+    </>
   );
 };
 
