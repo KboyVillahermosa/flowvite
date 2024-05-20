@@ -126,9 +126,9 @@ const Projects = () => {
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
         <img src="/weather1.png" alt="..." />
-        <img src="/public/weather2.png" alt="..." />
-        <img src="/public/weather3.png" alt="..." />
-        <img src="/public/weather4.png" alt="..." />
+        <img src="/weather2.png" alt="..." />
+        <img src="/weather3.png" alt="..." />
+        <img src="/weather4.png" alt="..." />
        </Carousel>
     </div>
           <div className="P-2">
@@ -188,7 +188,7 @@ const Projects = () => {
         <img src="/pizza3.png" alt="..." />
         <img src="/pizza4.png" alt="..." />
         <img src="/pizza5.png" alt="..." />
-        <img src="/public/pizza6.png" alt="..." />
+        <img src="/pizza6.png" alt="..." />
        </Carousel>
     </div>
           <div className="P-2">
@@ -248,7 +248,7 @@ const Projects = () => {
         <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
         <img src="/b2.png" alt="..." />
-        <img src="/public/b3.png" alt="..." />
+        <img src="/b3.png" alt="..." />
        </Carousel>
     </div>
           <div className="P-2">
