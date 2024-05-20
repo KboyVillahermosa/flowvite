@@ -470,7 +470,7 @@ const Projects = () => {
              FrontEnd Practice
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-            Your go-to resource for improving your computer science and IT abilities.
+            Take your frontend skills to the next level by recreating real websites from real companies.
             </p>
         </div>
 
