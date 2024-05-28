@@ -529,7 +529,9 @@ const Projects = () => {
              TechBros
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-            Your go-to resource for improving your computer science and IT abilities.
+            At TechBros, we're more than just a startup; we're visionaries,
+                innovators, and problem solvers passionate about transforming
+                ideas into impactful solutions.
             </p>
         </div>
       </div>

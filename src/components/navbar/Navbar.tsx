@@ -4,6 +4,7 @@
 import { Navbar } from "flowbite-react";
 import { DarkThemeToggle } from "flowbite-react";
 
+
 export function Component() {
   return (
     <body className="dark:bg-gray-800">
