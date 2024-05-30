@@ -25,11 +25,7 @@
 .about-image{
 
     width: 100%;
-    max-width: 400px;
-    background: url(/public/banner.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    max-width: 600px;
 }
 .about-image img{
     width: 100%;

@@ -8,7 +8,7 @@ const Skills = () => {
     <section id='skills'>
     <main className="dark:bg-gray-800">
         <div className="skills-title">
-            <h1 className='text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl'> Skills and Expertise</h1>
+            <h1 className='text-4xl uppercase font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl'> Skills and Expertise</h1>
         </div>
         <div className="skills-header">
             <div className="skills-content">

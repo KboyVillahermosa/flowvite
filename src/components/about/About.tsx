@@ -1,4 +1,5 @@
-
+import Lottie from 'lottie-react';
+import animationData from './about-me.json'
 import './About.css'
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
          Welcome to a world where each click is an invitation to explore, discover, and be inspired.</p>
       </div>
       <div className="about-image">
-        <img src="/me.png" alt="" />
+       <Lottie animationData={animationData} />
       </div>
     </div>
     </main>
