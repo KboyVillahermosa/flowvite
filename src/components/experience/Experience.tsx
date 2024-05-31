@@ -1,4 +1,6 @@
 import "./Experience.css";
+import Lottie from "lottie-react";
+import animationData from './react.json'
 import {  Timeline, Button } from "flowbite-react";
 import {  HiCalendar, HiArrowNarrowRight  } from "react-icons/hi";
 import { Link } from 'react-router-dom'
@@ -9,10 +11,10 @@ const Experience = () => {
       <main className="dark:bg-gray-800   ">
         <div className="experience-header">
           <div className="experience-image-content">
-            <h1 className="p-3 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+            <h1 className="p-3 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl mb-5">
              My Experience
             </h1>
-            <img src="/exp.png" alt="" />
+            <Lottie animationData={animationData}/>
           </div>
           <div className="experience-content">
             <Timeline>
