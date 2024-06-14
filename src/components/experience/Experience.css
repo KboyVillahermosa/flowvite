@@ -37,3 +37,11 @@
     margin-top: 100px;
 }
 
+@media screen and (max-width: 500px){
+    .button{
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+    }
+    
+}

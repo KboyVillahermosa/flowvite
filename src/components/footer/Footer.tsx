@@ -42,9 +42,9 @@ export function Component() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <div className="div"></div>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
-            <Footer.Icon href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
-           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
+            <Footer.Icon className="facebook text-blue-400 hover:text-green-500" href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
+            <Footer.Icon className=" text-red-400 hover:text-green-500" href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
+           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" className=" text-grren-500 hover:text-green-500" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
           </div>
         </div>
       </div>
