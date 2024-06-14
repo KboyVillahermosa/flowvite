@@ -101,7 +101,7 @@ const Experience = () => {
                       3rd Placer, Hackathon CCS, 2023 - Recognized for creating
                       a website for job searching
                     </p>
-            <img src="/public/green.jpg" alt="" />
+            <img src="/green.jpg" alt="" />
             </div>
           </div>
         </Accordion.Content>
@@ -114,7 +114,7 @@ const Experience = () => {
                       Certificate of appreciation for participating in 2024 Cebu Interschool HACKATHON
                     </p>
             <div className="image-header">
-            <img src="/public/interschool.jpg" alt="" />
+            <img src="/interschool.jpg" alt="" />
             </div>
           </div>
         </Accordion.Content>
