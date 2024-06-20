@@ -26,6 +26,7 @@ const Projects = () => {
   const [openModalNature, setOpenModalNature] = useState(false);
   const [openModalFront, setOpenModalFront] = useState(false);
   const [openModalTechBro, setOpenModalTechBro] = useState(false);
+  const [openModalEduPoor, setOpenModalEduPoor] = useState(false);
    
 
   const [loading, setLoading] = useState(true);
@@ -534,6 +535,74 @@ const Projects = () => {
                 ideas into impactful solutions.
             </p>
         </div>
+
+  {/* PoorEduAksuon   */}
+  <div className="project-content bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div
+        className="relative cursor-pointer group"
+        onClick={() => setOpenModalEduPoor(true)}  >
+        <img
+          src="/edu2.png"
+          alt=""
+          className="w-full h-auto transition-opacity duration-300 group-hover:opacity-75" />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <span className="text-white text-lg font-bold">View More</span>
+        </div>
+      </div>
+          {/* modal content    */}
+          <div className="modal-header">
+              <div className="modal-content">
+        <Modal dismissible show={openModalEduPoor} onClose={() => setOpenModalEduPoor(false)}  className="">
+        <Modal.Header>About this Project</Modal.Header>
+        <Modal.Body className="p-3 w-full">
+        <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
+        <Carousel pauseOnHover leftControl={<span><FaAngleLeft  className="control text-2xl "/></span>} rightControl={<span><FaAngleRight className="control text-2xl "/></span>}>
+        <img src="/edu1.png" alt="..." />
+        <img src="/edu2.png" alt="..." />
+        <img src="/edu3.png" alt="..." />
+        <img src="/edu4.png" alt="..." />
+        <img src="/edu5.png" alt="..." />
+        <img src="/edu6.png" alt="..." />
+        <img src="/edu7.png" alt="..." />
+        <img src="/edu8.png" alt="..." />
+        <img src="/edu9.png" alt="..." />
+        <img src="/edu10.png" alt="..." />
+        <img src="/edu11.png" alt="..." />
+        <img src="/edu12.png" alt="..." />
+       </Carousel>
+    </div>
+          <div className="p-2">
+            <h1 className="text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-2xl dark:text-white uppercase">
+            Technologies and Languages Used
+            </h1>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Languages
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">PHP, Javascript</p>
+            <h3 className="text-1xl font-extrabold leading-none tracking-tight text-gray-900 mt-3 dark:text-white uppercase">
+            Frameworks
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300">Tailwind CSS</p>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <a href="https://github.com/KboyVillahermosa/TechTool.git" target="_blank"><Button>Source Code</Button></a>
+          <Button color="gray" onClick={() => setOpenModalTechBro(false)}>
+            Decline
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      </div>
+      </div>
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+             PoorEduAksyon
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            At PobrEduKasyon, we believe in the power of education to transform lives
+            </p>
+        </div>
+
+        
       </div>
     </main>
     </section>
