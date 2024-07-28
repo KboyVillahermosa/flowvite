@@ -5,20 +5,26 @@ import { Timeline, Button, Modal,  Accordion } from "flowbite-react";
 import { HiCalendar, HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 const Experience = () => {
   const [openModal, setOpenModal] = useState(false);
   return (
     <>
-      <main className="dark:bg-gray-800   ">
+      <main className="dark:bg-gray-900   ">
         <div className="experience-header">
-          <div className="experience-image-content">
+          <div className="experience-image-content" data-aos="fade-right"
+            data-aos-duration="1000">
             <h1 className="mb-5 p-3 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
               My Experience
             </h1>
             <Lottie animationData={animationData} />
           </div>
-          <div className="experience-content">
+          <div className="experience-content"   data-aos="fade-up"
+            data-aos-duration="1000">
             <Timeline>
               <Timeline.Item>
                 <Timeline.Point icon={HiCalendar} />

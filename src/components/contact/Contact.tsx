@@ -1,12 +1,17 @@
 import "./Contact.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 const Contact = () => {
   return (
     <>
     <section id="contact">
-      <main className="dark:bg-gray-800">
+      <main className="dark:bg-gray-900">
         <div className="contact-header">
-          <div className="contact-content">
+          <div className="contact-content"  data-aos="fade-up"
+            data-aos-duration="1000">
             <h3 className="text-gray-900 dark:text-white">
               I'm always excited to connect with new people and discuss
               potential opportunities or collaborations. Whether you have a

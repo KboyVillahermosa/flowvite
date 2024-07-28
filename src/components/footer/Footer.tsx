@@ -9,9 +9,10 @@ import './Footer.css'
 export function Component() {
   return (
    <>
+   <main className="dark:bg-gray-900">
    <div className="footer-header">
     <div className="footer-content">
-    <Footer className="footer">
+    <Footer className="footer bg-white dark:bg-gray-900">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -42,9 +43,9 @@ export function Component() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <div className="div"></div>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon className="facebook text-blue-400 hover:text-green-500" href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
-            <Footer.Icon className=" text-red-400 hover:text-green-500" href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
-           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" className=" text-grren-500 hover:text-green-500" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
+            <Footer.Icon className="facebook text-green-500 hover:text-green-500" href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
+            <Footer.Icon className=" text-green-500 hover:text-green-500" href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
+           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" className=" text-grren-500 hover:text-white text-green-500" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
           </div>
         </div>
       </div>
@@ -52,6 +53,7 @@ export function Component() {
 
     </div>
    </div>
+   </main>
    </>
   );
 }
