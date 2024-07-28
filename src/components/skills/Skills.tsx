@@ -66,7 +66,7 @@ const Skills = () => {
       </Timeline.Item>
     </Timeline>
             </div>
-            <div className="skills-image" data-aos="fade-left"
+            <div className="skills-image" data-aos="fade-up"
             data-aos-duration="1000">
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="grid gap-4">

@@ -18,7 +18,7 @@ const About = () => {
          Welcome to a world where each click is an invitation to explore, discover, and be inspired.</p>
       </div>
       <div className="about-image"    
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1000">
        <Lottie animationData={animationData} />
       </div>
