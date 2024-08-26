@@ -8,6 +8,14 @@
     padding: 20px;
   }
   
-  .facebook{
-    color: #0e7490;
+
+  .facebook:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+  }
+
+
+  .insta:hover{
+    transform: translateY(-10px);
+    transition: 1s;
   }

@@ -46,9 +46,11 @@ const Projects = () => {
           </div>
 
           <div className="project-header">
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalQuotes(true)}
@@ -136,9 +138,11 @@ const Projects = () => {
                 so far, in reverse chronological order.
               </p>
             </div>
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalWeather(true)}
@@ -230,9 +234,11 @@ const Projects = () => {
             </div>
 
             {/* PIZZA HUT PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalPizza(true)}
@@ -328,9 +334,11 @@ const Projects = () => {
             </div>
 
             {/* sport car HUT PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalSport(true)}
@@ -417,9 +425,11 @@ const Projects = () => {
             </div>
 
             {/* TechTool HUT PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalTool(true)}
@@ -520,9 +530,11 @@ const Projects = () => {
             </div>
 
             {/* NATURE PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalNature(true)}
@@ -615,9 +627,11 @@ const Projects = () => {
             </div>
 
             {/* Frontend PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalFront(true)}
@@ -717,15 +731,17 @@ const Projects = () => {
             </div>
 
             {/* TechBro PROJECT CONTENT   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalTechBro(true)}
               >
                 <img
-                  src="/techbro1.png"
+                  src="/mentor1.png"
                   alt=""
                   className="h-auto w-full transition-opacity duration-300 group-hover:opacity-75"
                 />
@@ -760,9 +776,12 @@ const Projects = () => {
                             </span>
                           }
                         >
-                          <img src="/techbro2.png" alt="..." />
-                          <img src="/techbro3.png" alt="..." />
-                          <img src="/techbro4.png" alt="..." />
+                          <img src="/mentor1.png" alt="..." />
+                          <img src="/mentor2.png" alt="..." />
+                          <img src="/mentor3.png" alt="..." />
+                          <img src="/mentor4.png" alt="..." />
+                          <img src="/mentor5.png" alt="..." />
+                          <img src="/mentor6.png" alt="..." />
                         </Carousel>
                       </div>
                       <div className="p-2">
@@ -773,7 +792,7 @@ const Projects = () => {
                           Languages
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300">
-                          React Vite
+                          React Vite Typescript
                         </p>
                         <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
                           Frameworks
@@ -785,35 +804,39 @@ const Projects = () => {
                     </Modal.Body>
                     <Modal.Footer>
                       <a
-                        href="https://github.com/KboyVillahermosa/TechTool.git"
+                        href="https://github.com/KboyVillahermosa/frontend-mentor.git"
                         target="_blank"
                       >
                         <Button>Source Code</Button>
+                        
                       </a>
+                      <a href="https://frontend-mentor-ten-psi.vercel.app" target="_blank">
                       <Button
                         color="gray"
-                        onClick={() => setOpenModalTechBro(false)}
                       >
-                        Decline
+                        Demo
                       </Button>
+                      </a>
                     </Modal.Footer>
                   </Modal>
                 </div>
               </div>
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                TechBros
+                Frontend Mentor
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                At TechBros, we're more than just a startup; we're visionaries,
-                innovators, and problem solvers passionate about transforming
-                ideas into impactful solutions.
+                The project showcases my ability to convert designs into fully
+                functional, responsive web interfaces while leveraging
+                TypeScript for type safety and improved code quality.
               </p>
             </div>
 
             {/* PoorEduAksuon   */}
-            <div className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-            data-aos="fade-up"
-            data-aos-duration="1000">
+            <div
+              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 className="group relative cursor-pointer"
                 onClick={() => setOpenModalEduPoor(true)}

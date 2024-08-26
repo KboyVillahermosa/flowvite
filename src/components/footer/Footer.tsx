@@ -44,8 +44,8 @@ export function Component() {
           <div className="div"></div>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon className="facebook text-green-500 hover:text-green-500" href="https://web.facebook.com/profile.php?id=100086321577653" target="blank_" icon={BsFacebook} />
-            <Footer.Icon className=" text-green-500 hover:text-green-500" href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
-           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" className=" text-grren-500 hover:text-white text-green-500" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
+            <Footer.Icon className="insta text-green-500 hover:text-green-500" href="https://www.instagram.com/villahermosakboy?igsh=MWJ0eHZnNTduZjVidA==" icon={BsInstagram} />
+           <a href="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30" className="github text-grren-500 hover:text-green-500 text-green-500" target="blank_"><Footer.Icon href=""icon={BsGithub} /></a> 
           </div>
         </div>
       </div>
