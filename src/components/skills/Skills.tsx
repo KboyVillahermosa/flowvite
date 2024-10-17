@@ -22,9 +22,9 @@ const Skills = () => {
         <Timeline.Point icon={HiCalendar} />
         <Timeline.Content>
           <Timeline.Time></Timeline.Time>
-          <Timeline.Title className=''>Frontend Development</Timeline.Title>
+          <Timeline.Title className=''>Tech Stack I've Experienced</Timeline.Title>
           <Timeline.Body>
-          <h1 className=''><span className=''>HTML, CSS, JAVASCRIPT, PHP, REACTJS + VITE + TYPESCRIPT</span></h1>
+          <h1 className=''><span className=''>HTML, CSS, JAVASCRIPT, PHP, REACTJS, TYPESCRIPT</span></h1>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -33,7 +33,7 @@ const Skills = () => {
         <Timeline.Content>
           <Timeline.Title className=''> Backend Development</Timeline.Title>
           <Timeline.Body>
-            <h1 className=''><span className=''>PHP, MYSQL</span></h1>
+            <h1 className=''><span className=''>MYSQL, Firebase</span></h1>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -51,7 +51,7 @@ const Skills = () => {
         <Timeline.Content>
           <Timeline.Title className=''>Tools and Frameworks</Timeline.Title>
           <Timeline.Body>
-           <h1 className=''><span className=''> Vite, Typescript, Node.js, Express</span></h1>
+           <h1 className=''><span className=''> Vite, Typescript, Node.js</span></h1>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>

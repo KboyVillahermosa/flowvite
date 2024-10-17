@@ -46,98 +46,7 @@ const Projects = () => {
           </div>
 
           <div className="project-header">
-            <div
-              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <div
-                className="group relative cursor-pointer"
-                onClick={() => setOpenModalQuotes(true)}
-              >
-                <img
-                  src="/q1.png"
-                  alt="Qutes Generator"
-                  className="h-auto w-full transition-opacity duration-300 group-hover:opacity-75"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span className="text-lg font-bold text-white">
-                    View More
-                  </span>
-                </div>
-              </div>
-              <div className="modal-header">
-                <div className="modal-content">
-                  <Modal
-                    show={openModalQuotes}
-                    onClose={() => setOpenModalQuotes(false)}
-                    className="modal"
-                  >
-                    <Modal.Header className="">About this Project</Modal.Header>
-                    <Modal.Body className="p-3">
-                      <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
-                        <Carousel
-                          pauseOnHover
-                          leftControl={
-                            <span>
-                              <FaAngleLeft className="control text-2xl " />
-                            </span>
-                          }
-                          rightControl={
-                            <span>
-                              <FaAngleRight className="control text-2xl " />
-                            </span>
-                          }
-                        >
-                          <img src="/q2.png" alt="..." />
-                          <img src="/q3.png" alt="..." />
-                          <img src="/q4.png" alt="..." />
-                          <img src="/q2.png" alt="..." />
-                        </Carousel>
-                      </div>
-                      <div className="P-2">
-                        <h1 className="text-2xl font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-2xl">
-                          Technologies and Languages Used
-                        </h1>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Languages
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          HTML, CSS, PHP, JAVASCRIPT
-                        </p>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Frameworks
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          Tailwind CSS
-                        </p>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Tools and Platforms
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">API</p>
-                      </div>
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <Link
-                        to="https://github.com/KboyVillahermosa?tab=overview&from=2024-04-01&to=2024-04-30"
-                        target="blank_"
-                      >
-                        <Button onClick={() => setOpenModalQuotes(false)}>
-                          Source Code
-                        </Button>
-                      </Link>
-                    </Modal.Footer>
-                  </Modal>
-                </div>
-              </div>
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Qutes Generator
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
-              </p>
-            </div>
+        
             <div
               className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               data-aos="fade-up"
@@ -233,106 +142,7 @@ const Projects = () => {
               </p>
             </div>
 
-            {/* PIZZA HUT PROJECT CONTENT   */}
-            <div
-              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <div
-                className="group relative cursor-pointer"
-                onClick={() => setOpenModalPizza(true)}
-              >
-                <img
-                  src="/pizza2.png"
-                  alt=""
-                  className="h-auto w-full transition-opacity duration-300 group-hover:opacity-75"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span className="text-lg font-bold text-white">
-                    View More
-                  </span>
-                </div>
-              </div>
-              {/* modal content    */}
-              <div className="modal-header">
-                <div className="modal-content">
-                  <Modal
-                    dismissible
-                    show={openModalPizza}
-                    onClose={() => setOpenModalPizza(false)}
-                    className=""
-                  >
-                    <Modal.Header>About this Project</Modal.Header>
-                    <Modal.Body className="w-full p-3">
-                      <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
-                        <Carousel
-                          pauseOnHover
-                          leftControl={
-                            <span>
-                              <FaAngleLeft className="control text-2xl " />
-                            </span>
-                          }
-                          rightControl={
-                            <span>
-                              <FaAngleRight className="control text-2xl " />
-                            </span>
-                          }
-                        >
-                          <img src="/pizza3.png" alt="..." />
-                          <img src="/pizza4.png" alt="..." />
-                          <img src="/pizza5.png" alt="..." />
-                          <img src="/pizza6.png" alt="..." />
-                        </Carousel>
-                      </div>
-                      <div className="P-2">
-                        <h1 className="text-2xl font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-2xl">
-                          Technologies and Languages Used
-                        </h1>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Languages
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          HTML, CSS, PHP, JAVASCRIPT, MYSQL
-                        </p>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Frameworks
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          Tailwind CSS
-                        </p>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Tools and Platforms
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          MySQL, Apache, Phpmyadmin, Version Control
-                        </p>
-                      </div>
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <Button onClick={() => setOpenModalPizza(false)}>
-                        I accept
-                      </Button>
-                      <Button
-                        color="gray"
-                        onClick={() => setOpenModalPizza(false)}
-                      >
-                        Decline
-                      </Button>
-                    </Modal.Footer>
-                  </Modal>
-                </div>
-              </div>
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                E-commerce Pizza
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Your Ultimate Destination for Exceptional Pizza and Beyond!
-                Welcome to a culinary haven where passion for flavors meets the
-                convenience of modern technology
-              </p>
-            </div>
-
+          
             {/* sport car HUT PROJECT CONTENT   */}
             <div
               className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -344,7 +154,7 @@ const Projects = () => {
                 onClick={() => setOpenModalSport(true)}
               >
                 <img
-                  src="/b1.png"
+                  src="/searchjob.png"
                   alt=""
                   className="h-auto w-full transition-opacity duration-300 group-hover:opacity-75"
                 />
@@ -379,8 +189,21 @@ const Projects = () => {
                             </span>
                           }
                         >
-                          <img src="/b2.png" alt="..." />
-                          <img src="/b3.png" alt="..." />
+                          <img src="/searchjob.png" alt="..." />
+                          <img src="/searchjob2.png" alt="..." />
+                          <img src="/searchjob3.png" alt="..." />
+                          <img src="/searchjob4.png" alt="..." />
+                          <img src="/searchjob5.png" alt="..." />
+                          <img src="/searchjob6.png" alt="..." />
+                          <img src="/searchjob7.png" alt="..." />
+                          <img src="/searchjob8.png" alt="..." />
+                          <img src="/searchjob9.png" alt="..." />
+                          <img src="/searchjob10.png" alt="..." />
+                          <img src="/searchjob11.png" alt="..." />
+                          <img src="/searchjob12.png" alt="..." />
+                          <img src="/searchjob13.png" alt="..." />
+                          <img src="/searchjob14.png" alt="..." />
+
                         </Carousel>
                       </div>
                       <div className="P-2">
@@ -416,11 +239,10 @@ const Projects = () => {
                 </div>
               </div>
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Sport Car Blog
+                SearchJob
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Embark on a thrilling journey through the sleek and powerful
-                world of speed and design
+                
               </p>
             </div>
 
@@ -526,103 +348,6 @@ const Projects = () => {
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 Your go-to resource for improving your computer science and IT
                 abilities.
-              </p>
-            </div>
-
-            {/* NATURE PROJECT CONTENT   */}
-            <div
-              className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <div
-                className="group relative cursor-pointer"
-                onClick={() => setOpenModalNature(true)}
-              >
-                <img
-                  src="/nature1.png"
-                  alt=""
-                  className="h-auto w-full transition-opacity duration-300 group-hover:opacity-75"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span className="text-lg font-bold text-white">
-                    View More
-                  </span>
-                </div>
-              </div>
-              {/* modal content    */}
-              <div className="modal-header">
-                <div className="modal-content">
-                  <Modal
-                    dismissible
-                    show={openModalNature}
-                    onClose={() => setOpenModalNature(false)}
-                    className=""
-                  >
-                    <Modal.Header>About this Project</Modal.Header>
-                    <Modal.Body className="w-full p-3">
-                      <div className="carousel h-56 sm:h-64 xl:h-80 2xl:h-96">
-                        <Carousel
-                          pauseOnHover
-                          leftControl={
-                            <span>
-                              <FaAngleLeft className="control text-2xl " />
-                            </span>
-                          }
-                          rightControl={
-                            <span>
-                              <FaAngleRight className="control text-2xl " />
-                            </span>
-                          }
-                        >
-                          <img src="/nature1.png" alt="..." />
-                          <img src="/nature2.png" alt="..." />
-                          <img src="/nature3.png" alt="..." />
-                          <img src="/nature4.png" alt="..." />
-                          <img src="/nature5.png" alt="..." />
-                        </Carousel>
-                      </div>
-                      <div className="p-2">
-                        <h1 className="text-2xl font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-2xl">
-                          Technologies and Languages Used
-                        </h1>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Languages
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          HTML, CSS, JAVASCRIPT
-                        </p>
-                        <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Frameworks
-                        </h3>
-                        <p className="text-gray-600 dark:text-gray-300">
-                          Tailwind CSS
-                        </p>
-                      </div>
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <a
-                        href="https://github.com/KboyVillahermosa/TechTool.git"
-                        target="_blank"
-                      >
-                        <Button>Source Code</Button>
-                      </a>
-                      <Button
-                        color="gray"
-                        onClick={() => setOpenModalNature(false)}
-                      >
-                        Decline
-                      </Button>
-                    </Modal.Footer>
-                  </Modal>
-                </div>
-              </div>
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Nature Gallery
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                Step into the serenity of our Nature Gallery, where the beauty
-                of the natural world unfolds in a captivating visual symphony.
               </p>
             </div>
 
