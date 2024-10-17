@@ -16,12 +16,12 @@ const Loader = () => {
 };
 
 const Projects = () => {
-  const [openModalQuotes, setOpenModalQuotes] = useState(false);
+
   const [openModalWeather, setOpenModalWeather] = useState(false);
-  const [openModalPizza, setOpenModalPizza] = useState(false);
+
   const [openModalSport, setOpenModalSport] = useState(false);
   const [openModalTool, setOpenModalTool] = useState(false);
-  const [openModalNature, setOpenModalNature] = useState(false);
+
   const [openModalFront, setOpenModalFront] = useState(false);
   const [openModalTechBro, setOpenModalTechBro] = useState(false);
   const [openModalEduPoor, setOpenModalEduPoor] = useState(false);
