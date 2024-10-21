@@ -27,7 +27,7 @@ export function Component() {
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="https://drive.google.com/file/d/12Fg5NmLEq9VejXWzhiP69rxKLf-f_j3G/view?usp=sharing">Resume</Footer.Link>
+                <Footer.Link href="https://drive.google.com/file/d/1jxEo3wnA-uzUbbxIwmbjoDEPAF-WWjFw/view?usp=sharing">Resume</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
