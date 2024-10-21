@@ -20,7 +20,9 @@
 }
 .contact-content{
     width: 100%;
-    max-width: 1200px;
+    max-width: 700px;
+    margin: 20px 50px;
+    text-align: justify;
 }
 .contact-content h3{
     word-spacing: 10px;
@@ -42,5 +44,15 @@
     .contact-content h3{
         word-spacing: 0%;   
     }
+    
+}
+
+.contact-form{
+    width: 100%;
+    max-width: 500px;
+}
+
+.submit-btn {
+    background-color: #0e7490;
     
 }

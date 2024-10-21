@@ -242,7 +242,7 @@ const Projects = () => {
                 SearchJob
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                
+              Our platform aggregates job listings from leading sources, including LinkedIn, Indeed, Glassdoor, and more, allowing you to search, filter, and explore opportunities all in one place.
               </p>
             </div>
 
