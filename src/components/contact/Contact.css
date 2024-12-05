@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 30vh;
     padding: 20px;
 }
 @media screen and (max-width: 850px){
@@ -55,4 +55,12 @@
 .submit-btn {
     background-color: #0e7490;
     
+}
+.contact-title{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30vh;
 }

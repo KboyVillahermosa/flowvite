@@ -39,6 +39,12 @@ const Contact: React.FC = () => {
   return (
     <section id="contact">
       <main className="dark:bg-gray-900">
+        <div className="contact-title"  data-aos="fade-up"
+            data-aos-duration="1000">
+        <h1 className="mb-5 p-3 text-3xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl uppercase">
+        Get in touch with me
+            </h1>
+        </div>
         <div className="contact-header">
           <div className="contact-content" 
             data-aos="fade-up"
@@ -51,7 +57,8 @@ const Contact: React.FC = () => {
               best to get back to you as soon as possible. (∩˃o˂∩)♡
             </h3>
           </div>
-          <div className="contact-form">
+          <div className="contact-form"   data-aos="fade-up"
+            data-aos-duration="1000">
             <form onSubmit={handleSubmit} className="flex flex-col">
               <input
                 type="text"

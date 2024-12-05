@@ -25,6 +25,7 @@ const Projects = () => {
   const [openModalFront, setOpenModalFront] = useState(false);
   const [openModalTechBro, setOpenModalTechBro] = useState(false);
   const [openModalEduPoor, setOpenModalEduPoor] = useState(false);
+  const [openModalJob, setOpenModalJob] = useState(false);
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -143,7 +144,7 @@ const Projects = () => {
             </div>
 
           
-            {/* sport car HUT PROJECT CONTENT   */}
+            {/* Search JobHUT PROJECT CONTENT   */}
             <div
               className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               data-aos="fade-up"
@@ -214,13 +215,13 @@ const Projects = () => {
                           Languages
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300">
-                          HTML, CSS, JAVASCRIPT
+                         Reactjs Typescript, Firebase 
                         </p>
                         <h3 className="text-1xl mt-3 font-extrabold uppercase leading-none tracking-tight text-gray-900 dark:text-white">
-                          Frameworks
+                         Css Frameworks
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300">
-                          Bootstrap
+                          Tailwind Css
                         </p>
                       </div>
                     </Modal.Body>
@@ -556,8 +557,10 @@ const Projects = () => {
               </p>
             </div>
 
-            {/* PoorEduAksuon   */}
-            <div
+          
+
+              {/* PoorEduAksuon   */}
+              <div
               className="project-content rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               data-aos="fade-up"
               data-aos-duration="1000"

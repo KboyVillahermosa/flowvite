@@ -24,7 +24,8 @@ const Skills = () => {
           <Timeline.Time></Timeline.Time>
           <Timeline.Title className=''>Tech Stack I've Experienced</Timeline.Title>
           <Timeline.Body>
-          <h1 className=''><span className=''>HTML, CSS, JAVASCRIPT, PHP, REACTJS, TYPESCRIPT</span></h1>
+          <h1 className=''><span className=''>HTML, CSS, JAVASCRIPT, PHP, REACTJS, TYPESCRIPT, </span></h1>
+          <h1 className=''><span className=''>REACT NATIVE, KOTLIN, JAVA, PYTHON, C#, C++, C </span></h1>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -51,7 +52,7 @@ const Skills = () => {
         <Timeline.Content>
           <Timeline.Title className=''>Tools and Frameworks</Timeline.Title>
           <Timeline.Body>
-           <h1 className=''><span className=''> Vite, Typescript, Node.js</span></h1>
+           <h1 className=''><span className=''> ReactJs, NextJs, VueJs</span></h1>
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -84,11 +85,11 @@ const Skills = () => {
         </div>
     </div>
     <div className="grid gap-4">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="/html.png" alt="" />
+    <div>
+            <img className="h-auto max-w-full rounded-lg" src="/css.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/css.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/android.jpg" alt="" />
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src="/php.png" alt="" />
@@ -119,12 +120,13 @@ const Skills = () => {
             <img className="h-auto max-w-full rounded-lg" src="/mysql.png" alt="" />
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="/vite.png" alt="" />
+            <img className="h-auto max-w-full rounded-lg" src="/friebase.png" alt="" />
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src="/flowbite-react.png" alt="" />
         </div>
     </div>
+    
 </div>
 
                 
