@@ -25,7 +25,7 @@ const Projects = () => {
   const [openModalFront, setOpenModalFront] = useState(false);
   const [openModalTechBro, setOpenModalTechBro] = useState(false);
   const [openModalEduPoor, setOpenModalEduPoor] = useState(false);
-  const [openModalJob, setOpenModalJob] = useState(false);
+
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
