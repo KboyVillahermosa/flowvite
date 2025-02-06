@@ -11,6 +11,10 @@
     align-items: center;
     height: 30vh;
     padding: 20px;
+
+    height: 50vh;
+    padding: 20;
+
 }
 @media screen and (max-width: 850px){
     .contact-header{
